@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="@color/gary_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/filter_layout_margin">
+        <TextView android:ellipsize="end" android:id="@+id/infoTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="2014.01.01 - 2014.01.07" android:singleLine="true" android:layout_weight="1.0" />
+        <Button android:id="@+id/filterButton" android:background="@color/gary_color" android:padding="@dimen/filter_button_txt_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="筛选" />
+    </LinearLayout>
+    <ListView android:id="@+id/warringRefreshListView" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip" android:listSelector="#00000000" android:cacheColorHint="#00000000" android:divider="@android:color/darker_gray" android:dividerHeight="0.100000024dip" />
+</LinearLayout>

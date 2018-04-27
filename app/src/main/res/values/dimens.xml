@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="indicator_right_padding">10.0dip</dimen>
+    <dimen name="indicator_corner_radius">12.0dip</dimen>
+    <dimen name="indicator_internal_padding">4.0dip</dimen>
+    <dimen name="header_footer_left_right_padding">25.0dip</dimen>
+    <dimen name="header_footer_top_bottom_padding">10.0dip</dimen>
+    <dimen name="header_footer_internal_padding">20.0dip</dimen>
+    <dimen name="userinfo_top_margin">13.0dip</dimen>
+    <dimen name="home_small_top_margin">7.0dip</dimen>
+    <dimen name="home_middle_top_margin">13.0dip</dimen>
+    <dimen name="top_title_height">50.0dip</dimen>
+    <dimen name="top_left_btn_width">50.0dip</dimen>
+    <dimen name="top_right_btn_width">50.0dip</dimen>
+    <dimen name="top_tab_menu_height">40.0dip</dimen>
+    <dimen name="bottom_tab_menu_height">50.0dip</dimen>
+    <dimen name="home_today_alarm_margin_top">6.0dip</dimen>
+    <dimen name="home_today_alarm_padding">6.0dip</dimen>
+    <dimen name="home_progressbar_height">10.0dip</dimen>
+    <dimen name="home_progressbar_margin">4.0dip</dimen>
+    <dimen name="cell_txt_margin_line">5.0dip</dimen>
+    <dimen name="cell_txt_title_size">16.0sp</dimen>
+    <dimen name="cell_txt_content_size">13.0sp</dimen>
+    <dimen name="cell_txt_liebao_title_size">16.0sp</dimen>
+    <dimen name="cell_txt_liebao_content_size">16.0sp</dimen>
+    <dimen name="cell_txt_liebao_kindandlevel_size">13.0sp</dimen>
+    <dimen name="cell_separate_width">20.0dip</dimen>
+    <dimen name="divid_horizontal_dashline_height">2.0dip</dimen>
+    <dimen name="monitor_detail_left_txt_width">80.0dip</dimen>
+    <dimen name="monitor_detail_dns_left_txt_width">80.0dip</dimen>
+    <dimen name="line_margin_leftandright">10.0dip</dimen>
+    <dimen name="line_spacing_extra">6.0dip</dimen>
+    <dimen name="filter_button_padding_right">20.0dip</dimen>
+    <dimen name="filter_button_txt_padding">10.0dip</dimen>
+    <dimen name="filter_layout_margin">5.0dip</dimen>
+    <dimen name="sla_line_spacing_extra">5.0dip</dimen>
+    <dimen name="sla_txt_common_size">12.0sp</dimen>
+    <dimen name="sla_txt_title_size">24.0sp</dimen>
+    <dimen name="sla_txt_large_size">15.0sp</dimen>
+    <dimen name="sla_txt_middle_size">14.0sp</dimen>
+    <dimen name="txt_second_title_size">16.0sp</dimen>
+    <dimen name="pay_cell_divided_height">15.0dip</dimen>
+    <dimen name="pay_cell_margin_left">12.0dip</dimen>
+    <dimen name="pay_cell_margin_top">10.0dip</dimen>
+    <dimen name="pay_cell_item_margin_left">10.0dip</dimen>
+    <dimen name="pay_cell_item_margin_left_2">16.0dip</dimen>
+    <dimen name="customer_btn_height">38.0dip</dimen>
+    <dimen name="me_image_height">140.0dip</dimen>
+    <dimen name="me_item_height">45.0dip</dimen>
+    <dimen name="elife_image_height">140.0dip</dimen>
+    <dimen name="image_avator_width">50.0dip</dimen>
+    <dimen name="image_avator_size">50.0dip</dimen>
+    <dimen name="login_text_size">13.0dip</dimen>
+    <dimen name="home_tab_height">49dp</dimen>
+    <dimen name="common_content_spacing">@dimen/qmui_content_spacing_horizontal</dimen>
+
+    <!-- ListView -->
+    <dimen name="list_divider_height">1px</dimen>
+    <dimen name="list_divider_height_negative">-1px</dimen>
+    <!-- Helper 系列界面 -->
+
+    <!-- ColorHelper 颜色工具 -->
+    <dimen name="colorHelper_square_length">46dp</dimen>
+    <dimen name="colorHelper_square_margin">23dp</dimen>
+    <dimen name="colorHelper_square_desc_marginTop">10dp</dimen>
+    <dimen name="colorHelper_column_marginBottom">35dp</dimen>
+
+    <!-- DeviceHelper 设备检测工具 -->
+    <dimen name="deviceHelper_column_marginBottom">30dp</dimen>
+
+    <!-- DrawableHelper Drawable 工具 -->
+    <dimen name="drawableHelper_column_marginBottom">35dp</dimen>
+    <dimen name="drawableHelper_item_marginHorizontal">20dp</dimen>
+    <dimen name="drawableHelper_common_shape_size">50dp</dimen>
+
+    <!-- Span Utils 各种 Span 工具 -->
+    <dimen name="spanUtils_column_marginBottom">35dp</dimen>
+    <dimen name="spanUtils_common_textSize">16sp</dimen>
+</resources>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent" android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8.0dip"
+        android:foreground="?android:selectableItemBackground"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardCornerRadius="8.0dip">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/linear_checkbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_device_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_margin="8.0dip"
+                    android:text="设备编号/设备名称"
+                    android:textSize="14.0sp" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/warn_normal"
+                    android:id="@+id/iv_warn"
+                    android:paddingRight="10dp"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_device_right"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8.0dip"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:text="@string/power"
+                        android:textColor="@color/text_color"
+                        android:textSize="12.0sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:id="@+id/tv_focu_text1"
+                        android:text="@string/ls_wendu"
+                        android:textColor="@color/text_color"
+                        android:textSize="12.0sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:text="@string/bj_num"
+                        android:textColor="@color/text_color"
+                        android:textSize="12.0sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8.0dip"
+                    android:layout_marginTop="4.0dip"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_rl_type"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:textColor="@color/dark_gray_text"
+                        android:text=""
+                        android:textSize="12.0sp" />
+                    <TextView
+                        android:id="@+id/tv_ls_wendu"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:textColor="@color/dark_gray_text"
+                        android:text=""
+                        android:textSize="12.0sp" />
+                    <TextView
+                        android:id="@+id/tv_bj_xx"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:textColor="@color/dark_gray_text"
+                        android:text="123"
+                        android:textSize="12.0sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8.0dip"
+                    android:layout_marginTop="4.0dip"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:text="@string/media"
+                        android:textColor="@color/text_color"
+                        android:textSize="12.0sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:id="@+id/tv_focu_text2"
+                        android:text="@string/js_wendu"
+                        android:textColor="@color/text_color"
+                        android:textSize="12.0sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:text="@string/runtime"
+                        android:textColor="@color/text_color"
+                        android:textSize="12.0sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8.0dip"
+                    android:layout_marginTop="4.0dip"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/tv_jz_type"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:textColor="@color/dark_gray_text"
+                        android:text="10A"
+                        android:textSize="12.0sp" />
+                    <TextView
+                        android:id="@+id/tv_js_wendu"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:textColor="@color/dark_gray_text"
+                        android:text="10A"
+                        android:textSize="12.0sp" />
+                    <TextView
+                        android:id="@+id/tv_yx_time"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:textColor="@color/dark_gray_text"
+                        android:text="41"
+                        android:textSize="12.0sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8.0dip"
+                    android:layout_marginTop="4.0dip"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:text="@string/runstatus"
+                        android:textColor="@color/text_color"
+                        android:textSize="12.0sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:id="@+id/tv_focu_text3"
+                        android:text="@string/zq_yali"
+                        android:textColor="@color/text_color"
+                        android:textSize="12.0sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:text="@string/comeDate"
+                        android:textColor="@color/text_color"
+                        android:textSize="12.0sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8.0dip"
+                    android:layout_marginTop="4.0dip"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_yx_status"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:text=""
+                        android:textColor="@color/dark_gray_text"
+                        android:textSize="12.0sp" />
+
+                    <TextView
+                        android:id="@+id/tv_zq_yali"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:text="222"
+                        android:textColor="@color/dark_gray_text"
+                        android:textSize="12.0sp" />
+                    <TextView
+                        android:id="@+id/tv_comedate"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:text="222"
+                        android:textColor="@color/dark_gray_text"
+                        android:textSize="12.0sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

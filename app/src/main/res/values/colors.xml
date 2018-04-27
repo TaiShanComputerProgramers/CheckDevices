@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--color name="colorPrimary">#1892e8</color-->
+    <!--color name="colorPrimaryDark">#303F9F</color-->
+    <!--color name="colorPrimaryDark">#ff2f8d85</color-->
+    <color name="colorPrimary">#4895C9</color>
+    <color name="colorPrimaryDark">#4895C9</color>
+    <color name="title_color2">#F7AC2D</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="transparent">#00000000</color>
+    <color name="halftransparent">#e0000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="gray">#ff808080</color>
+    <color name="light_gray">#ffe1e1e1</color>d
+    <color name="sla_select_time_line">#ffbbbbbb</color>
+    <color name="triangle">#ff72d572</color>
+    <color name="circle">#ff738ffe</color>
+    <color name="rect">#ffe84e40</color>
+    <color name="view_bg">#00000000</color>
+    <color name="shadow">#ffbdbdbd</color>
+    <color name="page_bg_color">#fff3f2f3</color>
+    <color name="pay_bg_color">#fff7f7f7</color>
+    <color name="bottom_menu_txt_normal">#ff868b98</color>
+    <color name="bottom_menu_txt_select">#ff298d85</color>
+    <color name="bar_orange">#ffe5a14a</color>
+    <color name="bar_blue">#ff86cfb4</color>
+    <color name="bar_bg">#fffafafa</color>
+    <color name="bar_red">#ffff0000</color>
+    <color name="bar_green">#ff9bc967</color>
+    <color name="bar_gray">#ffeeeeee</color>
+    <color name="pay_btn_normal">#ffe6ae36</color>
+    <color name="pay_btn_pressed">#fff8cd72</color>
+    <color name="exit_line_color">#ff33b5e5</color>
+    <color name="exit_pressed_color">#ff81cfeb</color>
+    <color name="update_btn_bg_default">#ffffffff</color>
+    <color name="update_btn_bg_pressed">#ffe7f0cc</color>
+    <color name="update_btn_txt_default">#ff739a01</color>
+    <color name="update_btn_txt_pressed">#ff4a4a4a</color>
+    <color name="dividing_line_color">#ffb1b1b1</color>
+    <color name="dividing_line_gray_color">#ffcccccc</color>
+    <color name="roundbar_bg">#ffdff9f0</color>
+
+    <color name="roundbar_green">#ff5fdeb5</color>
+    <color name="roundbar_pink">#ffffb8b9</color>
+    <color name="about_txt_content_color">#ff333333</color>
+    <color name="dialog_btn_color">#ff4a4a4a</color>
+    <color name="layout_bg_pressed">#fff1f1f1</color>
+    <color name="listview_item_bg_pressed">#ffdadada</color>
+    <color name="update_btncancel_bg_normal">#ffd6d6d6</color>
+    <color name="update_btncancel_bg_pressed">#ffeeeeee</color>
+    <color name="update_btnsure_bg_normal">#ffe96e4d</color>
+    <color name="update_btnsure_bg_pressed">#ffe85730</color>
+    <color name="main_color">#1892e8</color>
+    <color name="main_color_pressed">#ff62bfb7</color>
+    <color name="background_color">#ffffffff</color>
+    <color name="gary_color">#ffeeeeee</color>
+    <color name="title_color">#ffffffff</color>
+    <color name="tab_selected_bg">#ffc4e1e1</color>
+    <color name="setting_selected_bg">#ffffffff</color>
+    <color name="red">#ffff0000</color>
+    <color name="green">#ff00ff00</color>
+    <color name="deepBlue">#ff233e59</color>
+    <color name="lightBlue">#ffcff5fe</color>
+    <color name="darkBlue">#ff4db9d7</color>
+    <color name="shape_stroke_color">#ffe0e0e0</color>
+    <color name="sla_shape_stroke_color">#ff8cb8e2</color>
+    <color name="main_deep_color">#ff5f8d85</color>
+    <color name="site_group_type_normal">#ffdcdcdc</color>
+    <color name="site_group_type_pressed">#ffd1d1d1</color>
+    <color name="resp_time_avg_color">#ff00a1d2</color>
+    <color name="resp_time_min_color">#ff55b600</color>
+    <color name="resp_time_max_color">#ffff0000</color>
+    <color name="site_type_normal">#fff0f0f0</color>
+    <color name="site_type_pressed">#ffe1e1e1</color>
+    <color name="typeGroupBgColor">#ffdcdcdc</color>
+    <color name="typeItemBgColor">#fff0f0f0</color>
+    <color name="monitor_http_dnstime_color">#ffd6b470</color>
+    <color name="monitor_http_conntime_color">#ffccc272</color>
+    <color name="monitor_http_pretime_color">#ff73b8c7</color>
+    <color name="monitor_http_startime_color">#ff9ac66e</color>
+    <color name="monitor_http_line_color">#ff4488bb</color>
+    <color name="monitor_http_cjq_dnstime_color">#ff99cc00</color>
+    <color name="monitor_http_cjq_startime_color">#ffffcc00</color>
+    <color name="monitor_http_cjq_line_color">#ffcdcdcd</color>
+    <color name="monitor_http_cjq_default_line_color">#fff4f4f4</color>
+    <color name="sla_second_txt_color">#ff868b98</color>
+    <color name="sla_content_title_color">#ff183674</color>
+    <color name="lb_btn_bg_normal">#ffaa9c41</color>
+    <color name="lb_content_txt_normal">#ff333333</color>
+    <color name="lb_content_txt_read">#ffa1a1a1</color>
+    <color name="back_gray">#fff6f6f6</color>
+    <color name="notice_title">#ff333333</color>
+    <color name="press">#ffe0e0e0</color>
+    <color name="divide">#ffe0e0e0</color>
+    <color name="dark_gray_text">#ff999999</color>
+    <color name="font_black_3">#757575</color>
+    <color name="app_color_description">@color/qmui_config_color_gray_5</color>
+    <color name="app_color_blue">#00A8E1</color>
+    <color name="app_color_blue_disabled">#8000A8E1</color>
+    <color name="app_color_blue_pressed">#c000A8E1</color>
+
+    <color name="app_color_blue_2">#31BDF3</color>
+    <color name="app_color_blue_2_disabled">#7F31BDF3</color>
+    <color name="app_color_blue_2_pressed">#7F31BDF3</color>
+
+    <color name="app_color_theme_1">#EF5362</color> <!-- Grapefruit -->
+    <color name="app_color_theme_2">#FE6D4B</color> <!-- Bittersweet -->
+    <color name="app_color_theme_3">#FFCF47</color> <!-- Sunflower -->
+    <color name="app_color_theme_4">#9FD661</color> <!-- Grass -->
+    <color name="app_color_theme_5">#3FD0AD</color> <!-- Mint -->
+    <color name="app_color_theme_6">#2BBDF3</color> <!-- Aqua -->
+    <color name="app_color_theme_7">#5A9AEF</color> <!-- Blue Jeans -->
+    <color name="app_color_theme_8">#AC8FEF</color> <!-- Lavender -->
+    <color name="app_color_theme_9">#EE85C1</color> <!-- Pink Rose -->
+
+    <color name="bar_divider">#D4D6D8</color>
+    <color name="tab_panel_bg">#ffffff</color>
+    <color name="tab_panel_divider">@color/bar_divider</color>
+
+    <!-- Components 组件 -->
+    <color name="radiusImageView_border_color">@color/app_color_theme_2</color>
+    <color name="radiusImageView_selected_border_color">@color/app_color_theme_1</color>
+    <color name="radiusImageView_selected_mask_color">#7FEF5362</color>
+
+    <!-- Helper 系列界面 -->
+
+    <!-- ColorHelper 颜色工具 -->
+    <color name="colorHelper_square_alpha_background">@color/app_color_theme_4</color>
+    <color name="colorHelper_square_from_ratio_background">@color/app_color_blue</color>
+    <color name="colorHelper_square_to_ratio_background">@color/app_color_theme_3</color>
+    <color name="whitesmoke">#f5f5f5</color><!--烟白色 -->
+    <color name="red_500">#ef4836</color>
+    <color name="bg_focus">#DDDDDD</color>
+    <color name="textColor_alert_button_cancel">#007aff</color>
+    <color name="yellow">#EEEE00</color>
+
+
+    <color name="text_color">#ff066fbf</color>
+    <color name="black1">#ff606060</color>
+
+    <color name="colorLoginBackGround">#fff0f0f0</color>
+
+    <color name="view_gray_line">#aaa</color>
+
+</resources>

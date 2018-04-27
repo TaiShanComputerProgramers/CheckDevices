@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/back_gray" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/back_gray" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/title_toolbar"></include>
+        <FrameLayout android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/elife_image_height">
+            <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@mipmap/head" android:scaleType="fitXY" />
+        </FrameLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/ll_service_station" android:background="@drawable/line_pressed" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="25.0dip" android:layout_marginRight="16.0dip">
+                <ImageView android:id="@+id/r1" android:layout_width="@dimen/image_avator_width" android:layout_height="@dimen/image_avator_size" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:src="@mipmap/serviceposition1" android:layout_centerVertical="true" />
+                <LinearLayout android:orientation="vertical" android:id="@+id/title_ll_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_toRightOf="@+id/r1" android:layout_centerVertical="true">
+                    <TextView android:textSize="16.0sp" android:textColor="@color/notice_title" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="设备1" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/dark_gray_text" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="参数1：无  参数2：无" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/dark_gray_text" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="参数3：无  参数4：无" />
+                </LinearLayout>
+                <ImageView android:id="@+id/in_shape" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/shape_in" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/ll_smart_furnishing" android:background="@drawable/line_pressed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+            <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="25.0dip" android:layout_marginRight="16.0dip">
+                <ImageView android:id="@+id/r2" android:layout_width="@dimen/image_avator_width" android:layout_height="@dimen/image_avator_size" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:src="@mipmap/serviceposition1" android:layout_centerVertical="true" />
+                <LinearLayout android:orientation="vertical" android:id="@+id/title_ll_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_toRightOf="@+id/r2" android:layout_centerVertical="true">
+                    <TextView android:textSize="16.0sp" android:textColor="@color/notice_title" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="设备2" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/dark_gray_text" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="参数1：无  参数2：无" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/dark_gray_text" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="参数3：无  参数4：无" />
+                </LinearLayout>
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/shape_in" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

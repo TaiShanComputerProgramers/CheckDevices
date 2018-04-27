@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:background="@color/colorPrimary"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<ScrollView android:background="@color/back_gray" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/back_gray" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.qmuiteam.qmui.widget.QMUITopBar
+            android:id="@+id/topbar"
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"
+            android:layout_height="50dp" />
+        <LinearLayout android:orientation="horizontal" android:id="@+id/ll_service_station" android:background="@drawable/line_pressed" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="25.0dip" android:layout_marginRight="16.0dip">
+                <ImageView android:id="@+id/r1" android:layout_width="@dimen/customer_btn_height" android:layout_height="@dimen/customer_btn_height" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:src="@mipmap/yingjishijian" android:layout_centerVertical="true" />
+                <LinearLayout android:orientation="vertical" android:id="@+id/title_ll_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_toRightOf="@+id/r1" android:layout_centerVertical="true">
+                    <TextView android:textSize="16.0sp" android:textColor="@color/notice_title" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="报警信息1" />
+                </LinearLayout>
+                <!--ImageView android:id="@+id/in_shape" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/shape_in" android:layout_alignParentRight="true" android:layout_centerVertical="true" /-->
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/ll_smart_furnishing" android:background="@drawable/line_pressed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+            <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="25.0dip" android:layout_marginRight="16.0dip">
+                <ImageView android:id="@+id/r2" android:layout_width="@dimen/customer_btn_height" android:layout_height="@dimen/customer_btn_height" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:src="@mipmap/yingjishijian" android:layout_centerVertical="true" />
+                <LinearLayout android:orientation="vertical" android:id="@+id/title_ll_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_toRightOf="@+id/r2" android:layout_centerVertical="true">
+                    <TextView android:textSize="16.0sp" android:textColor="@color/notice_title" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="通讯信息2" />
+                </LinearLayout>
+                <!--ImageView android:id="@+id/in_shape2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/shape_in" android:layout_alignParentRight="true" android:layout_centerVertical="true" /-->
+            </RelativeLayout>
+        </LinearLayout>
+        <!--LinearLayout android:orientation="horizontal" android:id="@+id/ll_smart_furnishing" android:background="@drawable/line_pressed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+            <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="25.0dip" android:layout_marginRight="16.0dip">
+                <ImageView android:id="@+id/r2" android:layout_width="@dimen/image_avator_width" android:layout_height="@dimen/image_avator_size" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:src="@mipmap/automationhome" android:layout_centerVertical="true" />
+                <LinearLayout android:orientation="vertical" android:id="@+id/title_ll_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_toRightOf="@+id/r2" android:layout_centerVertical="true">
+                    <TextView android:textSize="16.0sp" android:textColor="@color/notice_title" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="暖心宝" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/dark_gray_text" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="智慧生活，由我掌控" />
+                </LinearLayout>
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/shape_in" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout-->
+    </LinearLayout>
+</ScrollView>
+    </FrameLayout>

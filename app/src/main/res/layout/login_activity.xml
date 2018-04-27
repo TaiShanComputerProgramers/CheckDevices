@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/LinearLayout1" android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@+id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100.0dip" android:layout_marginBottom="20.0dip" android:src="@drawable/a103" />
+    <!--TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="30dp"
+        android:text="锅炉设备监控系统"
+        android:textColor="@color/app_color_blue"
+        android:textSize="35sp"
+        android:gravity="center"/-->
+    <EditText android:id="@+id/nameEditText" android:background="@drawable/edittext_bg_selector" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="2.0dip" android:hint="@string/login_email" android:ems="10" android:inputType="textEmailAddress" />
+    <EditText android:id="@+id/passwordEditText" android:background="@drawable/edittext_bg_selector" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:hint="@string/login_password" android:ems="10" android:inputType="textPassword" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <android.support.v7.widget.AppCompatCheckBox android:layout_weight="1" android:id="@+id/checkbox_remember"
+            android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginLeft="0dip" android:layout_marginTop="8.0dip" android:text="记住密码" />
+        <android.support.v7.widget.AppCompatCheckBox android:layout_weight="1"
+            android:id="@+id/checkbox_autologin"  android:layout_gravity="left"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginLeft="0dip" android:layout_marginTop="8.0dip" android:text="自动登录" />
+    </LinearLayout>
+
+    <Button android:textSize="20.0sp" android:textColor="@drawable/button_color" android:id="@+id/loginButton" android:background="@drawable/button_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/login_login" />
+</LinearLayout>
+<RelativeLayout android:layout_width="fill_parent" android:visibility="visible" android:layout_height="50.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+    <TextView android:textSize="@dimen/login_text_size" android:gravity="center_horizontal" android:id="@+id/btn_login_state" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/copy_company" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+</RelativeLayout>
+</RelativeLayout>

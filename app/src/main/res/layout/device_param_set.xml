@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.qmuiteam.qmui.widget.QMUITopBar
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/qmui_topbar_height"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!--reli.kdzt.com.ktztrelisystem.widget.HeaderView
+            android:id="@+id/headview_tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"/-->
+
+            <!--TextView
+                style="@style/main_title_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="数据库服务器" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/bg_focus" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="?android:selectableItemBackground">
+
+                <TextView
+                    android:id="@+id/tv_ip_sql"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="18dip"
+                    android:gravity="center_vertical"
+                    android:text="IP地址："
+                    android:textColor="@color/about_txt_content_color"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText_ip_sql"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@+id/tv_ip_sql"
+                    android:layout_weight="0.86"
+                    android:background="@null"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/bg_focus" /-->
+
+            <TextView
+                style="@style/main_title_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="通讯参数" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/bg_focus" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:id="@+id/re_fasongjiange"
+                android:background="?android:selectableItemBackground">
+
+                <TextView
+                    android:id="@+id/tv_fasongjiange"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="18dip"
+                    android:gravity="center_vertical"
+                    android:text="请求间隔（秒）："
+                    android:textColor="@color/about_txt_content_color"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText_fasognjiange"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@+id/tv_fasongjiange"
+                    android:layout_weight="0.86"
+                    android:background="@null"
+                    android:text="60"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/bg_focus" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
