@@ -177,7 +177,7 @@ bd@jiankongbao.com"</string>
     <string name="pull_to_refresh_from_bottom_pull_label">向下拉加载更多…</string>
     <string name="pull_to_refresh_from_bottom_release_label">松开加载更多…</string>
     <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
-    <string name="copy_company">泰安步科赛尔电气有限公司（v0.2.1）</string>
+    <string name="copy_company">山东简洁软件有限公司</string>
     <string name="name">用户名</string>
     <string name="weixin">微信</string>
     <string name="tel">手机号</string>
